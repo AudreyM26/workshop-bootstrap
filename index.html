@@ -24,14 +24,37 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active text-white" href="#">Accueil</a>
-            <a class="nav-item nav-link text-white" href="#">Collaborateurs</a>
+            <a class="nav-item nav-link text-white active" href="#">Collaborateurs</a>
             <a class="nav-item nav-link text-white" href="#">Statistiques</a>
             <a class="nav-item nav-link text-white" href="#">Activités</a>
             <!--<a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Activités</a>-->
           </div>
         </div>
-      </nav>
+    </nav>
+    <main>
+        <div class="container mt-3">
+            <div class="row mb-2">
+                <div class="col-md-4 mt-4"><h2>Les Collaborateurs</h2></div>
+                <div class="col-md-4 offset-md-4"><input type="button" value="Ajouter un nouveau collaborateur"></div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-md-6 col-xl-5"><label for="rech"></label>Rechercher un nom ou un prénom qui commence par</label></div>
+                <div class="col-md-3"><input type="text" id="rech" name="rech" width="30%"></div>
+                <div class="col-md-3"><input type="checkbox" id="checkcollab" name="checkcollab"> <label for="checkcollab"></label>Voir les collaborateurs désactivés</label></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-xl-5"><label for="dept">Filtrer par département</label></div>
+                <div class="col-md-3">
+                    <select name="dept" id="dept" width="30%">
+                        <option value="tous">Tous</option>
+                        <option value="34">Hérault</option>
+                        <option value="11">Aude</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </main>
+
 </body>
 
 </html>
