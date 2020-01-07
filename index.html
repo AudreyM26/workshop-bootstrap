@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>SGP - Accueil</title>
+    <title>Accueil</title>
 </head>
 
 <body>
@@ -33,9 +33,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link text-white active" href="#">Collaborateurs</a>
-                <a class="nav-item nav-link text-white" href="stats.html">Statistiques</a>
-                <a class="nav-item nav-link text-white" href="activites.html">Activités</a>
+                <a class="nav-item nav-link text-secondary disabled" href="#">Collaborateurs</a>
+                <a class="nav-item nav-link text-white btn-outline-info" href="stats.html">Statistiques</a>
+                <a class="nav-item nav-link text-white btn-outline-info" href="activites.html">Activités</a>
                 <!--<a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Activités</a>-->
             </div>
         </div>
@@ -43,7 +43,7 @@
     <main>
         <div class="container mt-3">
             <div class="row mb-2">
-                <div class="col-md-4 mt-4">
+                <div class="col-md-4 mt-sm-4">
                     <h2>Les Collaborateurs</h2>
                 </div>
                 <div class="col-md-2 offset-md-4 offset-xl-6">
@@ -56,7 +56,7 @@
                     <labefor="rech">Rechercher un nom ou un prénom qui commence par :</label>
                 </div>
                 <div class="col-md-2"><input type="text" id="rech" name="rech" class="form-control"></div>
-                <div class="col-md-2"><input type="button" class="form-control" value="Rechercher"></div>
+                <div class="col-md-2 pt-1 pt-sm-0"><input type="button" class="form-control btn-outline-secondary" value="Rechercher"></div>
                 <div class="col-md-3 pl-5 pl-md-4"><input type="checkbox" id="checkcollab" name="checkcollab"
                         class="form-check-input"> <label for="checkcollab">Voir les collaborateurs désactivés</label>
                 </div>
@@ -66,8 +66,9 @@
                 <div class="col-md-2">
                     <select name="dept" id="dept" class="form-control">
                         <option value="tous">Tous</option>
-                        <option value="34">Hérault</option>
-                        <option value="11">Aude</option>
+                        <option value="compta">Comptabilité</option>
+                        <option value="rh">Ressources humaines</option>
+                        <option value="it">Informatique</option>
                     </select>
                 </div>
             </div>
@@ -107,7 +108,7 @@
 
                                     </div>
                                 </div>
-                                <div class="text-right"><a href="editer.html" class="btn btn-info">Editer</a></div>
+                                <div class="text-right pr-2"><a href="editer.html" class="btn btn-info">Editer</a></div>
                             </p>
 
                         </div>
@@ -147,7 +148,7 @@
 
                                     </div>
                                 </div>
-                                <div class="text-right"><a href="editer.html" class="btn btn-info">Editer</a></div>
+                                <div class="text-right pr-2"><a href="editer.html" class="btn btn-info">Editer</a></div>
                             </p>
 
                         </div>
@@ -186,7 +187,7 @@
 
                                     </div>
                                 </div>
-                                <div class="text-right"><a href="editer.html" class="btn btn-info">Editer</a></div>
+                                <div class="text-right pr-2"><a href="editer.html" class="btn btn-info">Editer</a></div>
                             </p>
 
                         </div>
@@ -227,7 +228,7 @@
 
                                     </div>
                                 </div>
-                                <div class="text-right"><a href="editer.html" class="btn btn-info">Editer</a></div>
+                                <div class="text-right pr-2"><a href="editer.html" class="btn btn-info">Editer</a></div>
                             </p>
 
                         </div>
@@ -267,7 +268,7 @@
 
                                     </div>
                                 </div>
-                                <div class="text-right"><a href="editer.html" class="btn btn-info">Editer</a></div>
+                                <div class="text-right pr-2"><a href="editer.html" class="btn btn-info">Editer</a></div>
                             </p>
 
                         </div>
@@ -306,7 +307,7 @@
 
                                     </div>
                                 </div>
-                                <div class="text-right"><a href="editer.html" class="btn btn-info">Editer</a></div>
+                                <div class="text-right pr-2"><a href="editer.html" class="btn btn-info">Editer</a></div>
                             </p>
 
                         </div>

@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Statistiques</title>
+    <title>Activtés</title>
 </head>
 
 <body>
@@ -34,8 +34,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link text-white btn-outline-info" href="index.html">Collaborateurs</a>
-                <a class="nav-item nav-link text-secondary disabled" href="#">Statistiques</a>
-                <a class="nav-item nav-link text-white btn-outline-info" href="activites.html">Activités</a>
+                <a class="nav-item nav-link text-white btn-outline-info" href="stats.html">Statistiques</a>
+                <a class="nav-item nav-link text-secondary disabled" href="#">Activités</a>
                 <!--<a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Activités</a>-->
             </div>
         </div>
@@ -43,47 +43,25 @@
     <main>
         <div class="container mt-3">
             <div class="row mb-2">
-                <div class="col-md-4 mt-sm-4 pl-md-0">
-                    <h2>Statistiques</h2>
-                </div>
-                <div class="col-md-2 offset-md-4 offset-xl-6">
-                    <input type="button" class="btn btn-outline-secondary" onclick="window.location.href='creer.html'"
-                        value="Ajouter un nouveau collaborateur">
+                <div class="col-md-8 mt-sm-4 pl-md-0">
+                    <h2>Activités depuis le démarrage de l'application</h2>
                 </div>
             </div>
         </div>
         <div class="container mt-3 border border-secondary rounded">
             <div class="row bg-secondary text-white">
-                <div class="col-5 col-sm-4">Chemin</div>
-                <div class="col-2 col-sm-2">Nombre de visites</div>
-                <div class="col-1 col-sm-2">Min (ms)</div>
-                <div class="col-1 col-sm-2">Max (ms)</div>
-                <div class="col-1 col-sm-2">Moyenne (ms)</div>
+                <div class="col-5 col-sm-4">Date / Heure</div>
+                <div class="col-7 col-sm-8">Libellé</div>
             </div>
             <div class="row bg-light">
-                <div class="col-5 col-sm-4">/collaborateurs/editer</div>
-                <div class="col-2 col-sm-2">500</div>
-                <div class="col-1 col-sm-2">10</div>
-                <div class="col-1 col-sm-2">1000</div>
-                <div class="col-1 col-sm-2">500</div>
+                <div class="col-5 col-sm-4">10/10/2017 10:50:52</div>
+                <div class="col-7 col-sm-8">Création d'un nouveau collaborateur - matricule : XXXXXX (lien)</div>
             </div>
             <div class="row">
-                <div class="col-5 col-sm-4">/collaborateurs/lister</div>
-                <div class="col-2 col-sm-2">125</div>
-                <div class="col-1 col-sm-2">5</div>
-                <div class="col-1 col-sm-2">600</div>
-                <div class="col-1 col-sm-2">90</div>
-            </div>
-            <div class="row bg-light">
-                <div class="col-5 col-sm-4">/collaborateurs/nouveau</div>
-                <div class="col-2 col-sm-2">200</div>
-                <div class="col-1 col-sm-2">2</div>
-                <div class="col-1 col-sm-2">58</div>
-                <div class="col-1 col-sm-2">789</div>
+                <div class="col-5 col-sm-4">10/10/2017 10:52:52</div>
+                <div class="col-7 col-sm-8">Modification d'un collaborateur - matricule : XXXXXX (lien)</div>
             </div>
         </div>
     </main>
-
 </body>
-
 </html>
